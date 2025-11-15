@@ -204,7 +204,7 @@ public class NeoForgeModData implements IModData
     {
         // For Fabric libraries loaded by Sinytra Connector
         String modId = info.getModId();
-        if(modId.startsWith("fabric_") || modId.contains("lib") || modId.equals("fabricloader") || modId.equals("mixinextras") || modId.equals("connector") || modId.equals("kotlinforforge") || modId.equals("blueprint"))
+        if(modId.startsWith("fabric_") || modId.contains("lib") || modId.contains("api") || modId.equals("fabricloader") || modId.equals("mixinextras") || modId.equals("connector") || modId.equals("kotlinforforge") || modId.equals("blueprint") || modId.equals("terrablender") || modId.equals("ponder") || modId.equals("flywheel") || modId.equals("blueprint") || modId.equals("lithostitched") || modId.equals("platform"))
         {
             return Type.LIBRARY;
         }
